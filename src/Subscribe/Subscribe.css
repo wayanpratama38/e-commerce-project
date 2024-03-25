@@ -1,0 +1,51 @@
+.subscribe{
+    height: 50vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.8715861344537815) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.subscribe h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.subscribe p {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.subscribe div input{
+    width: 50vw;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.subscribe div button{
+    width: 15vw;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.subscribe div button:active{
+    background-color: white;
+    color: black;
+}
